@@ -69,6 +69,15 @@ public class Card {
 	public String toString() {
 		return this.getStringNumber() + " of " + this.getSuit();
 	}
+
+	public boolean isEqual(Card c){
+		if(this.toString().equals(c.toString())){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 	
 
 }
