@@ -31,7 +31,8 @@ public class Card {
 			return String.valueOf(number);
 		}
 	}
-	
+
+	//For use with accessing resources
 	public String getShortName() {
 		if(number == 11){
 			return (suit + "j");
@@ -65,7 +66,6 @@ public class Card {
 		}
 	}
 
-		
 	public String toString() {
 		return this.getStringNumber() + " of " + this.getSuit();
 	}
